@@ -60,12 +60,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _BandHeight: 43
-    - _BandInt: 0.057
+    - _BandHeight: 5
+    - _BandInt: 0.01
     - _BandPaningSpeed: 1
-    - _BorderInt: 0.206
-    - _BorderSpherifyStrenght: 0.61
-    - _CenterGlowing: 0.293
+    - _BorderInt: 0.2
+    - _BorderSpherifyStrenght: -1.03
+    - _CenterGlowing: 0.2
     - _Float0: 0.71
     - _Float1: 1.1
     - _Float2: 0.64
@@ -76,6 +76,6 @@ Material:
     - _Float7: -66.2
     - _Float8: 0.027
     - _PixelSize: 500
-    - _SpherifyStrenght: 1.8
+    - _SpherifyStrenght: 0.5
     - __dirty: 0
     m_Colors: []
