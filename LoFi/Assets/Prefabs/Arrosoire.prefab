@@ -36,8 +36,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 867, y: 439}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 817, y: 439}
+  m_SizeDelta: {x: 241, y: 162}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6409178838069454485
 CanvasRenderer:
@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: de440c3ee266b4547851de39f88e1288, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9f410470175c8e4468a2323b95f63307, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -93,8 +93,8 @@ MonoBehaviour:
   Pot:
     serializedVersion: 2
     m_Bits: 256
-  baseSprite: {fileID: 21300000, guid: de440c3ee266b4547851de39f88e1288, type: 3}
-  OverSprite: {fileID: 21300000, guid: 7bdcc29d70293394686441762b47cb2f, type: 3}
+  baseSprite: {fileID: 21300000, guid: 9f410470175c8e4468a2323b95f63307, type: 3}
+  OverSprite: {fileID: 21300000, guid: 2d469c39a13253b4ab97bddfa2b297a5, type: 3}
 --- !u!61 &1639615533693503136
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -119,5 +119,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 100.81909, y: 100.38495}
+  m_Size: {x: 241.78, y: 161.7}
   m_EdgeRadius: 0
