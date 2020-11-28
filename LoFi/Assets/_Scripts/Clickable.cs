@@ -44,7 +44,9 @@ public class Clickable : MonoBehaviour
     {
         if (isOk)
         {
+            _meshRenderer.material = BaseMat;
             ChangeView?.Invoke(TargetWhenClicked);
+
         }
         
     }

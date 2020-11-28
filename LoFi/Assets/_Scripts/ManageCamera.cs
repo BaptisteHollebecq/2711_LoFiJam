@@ -13,6 +13,7 @@ public class ManageCamera : MonoBehaviour
     private void Awake()
     {
         Clickable.ChangeView += ChangeCam;
+        UI_BackButton.ChangeView += ChangeCam;
 
         PlayerPrefs.SetInt("UnitySelectMonitor", 1);
 
@@ -22,6 +23,7 @@ public class ManageCamera : MonoBehaviour
     private void OnDestroy()
     {
         Clickable.ChangeView -= ChangeCam;
+        UI_BackButton.ChangeView -= ChangeCam;
     }
 
     void ChangeCam(Camera cam)

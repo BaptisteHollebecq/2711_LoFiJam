@@ -6,6 +6,11 @@ public class Flower : MonoBehaviour
 {
     public float TimetoGrow = 40;
 
+    public GameObject baseFlower;
+    public Mesh GrownFloawer;
+
+    public Material DeadMaterial;
+
     [HideInInspector]
     public FlowerPot pot;
 
@@ -48,13 +53,13 @@ public class Flower : MonoBehaviour
         }
 
         {
-            // POP DAT FLOWER
+            baseFlower.GetComponent<MeshFilter>().mesh = GrownFloawer;
         } 
     }
 
     public void Kill()
     {
-        //CHANGE MATERIAL 
+        baseFlower.GetComponent<MeshRenderer>().material = DeadMaterial;
         isDead = true;
         StopCoroutine(routine);
     }
