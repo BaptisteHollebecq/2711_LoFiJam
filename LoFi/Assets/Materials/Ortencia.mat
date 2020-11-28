@@ -24,7 +24,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _CurveMap:
-        m_Texture: {fileID: 2800000, guid: 0fccbb32ecfed1a4e995072facdd6ef3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6f32067dae2413e48b396acfffa595a4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 50f9d8e97a9f5004a8484b2c87b599f7, type: 3}
+        m_Texture: {fileID: 2800000, guid: c950aedfdc86c5e439e3c9862ada5d22, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -76,7 +76,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ThicknessMap:
-        m_Texture: {fileID: 2800000, guid: 5d07f22d12bc0a7409e0618a98c3186b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3578365b12b977b43b058418aabe501f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -101,7 +101,7 @@ Material:
     - _NormalScale: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _SecondColorMask: 0.707
+    - _SecondColorMask: 0.529
     - _SmoothnessInt: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -113,6 +113,6 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 0.92549014, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0.6411609, g: 0.6411609, b: 0.6411609, a: 1}
-    - _FakeSSSColor: {r: 0.52830195, g: 0.21312103, b: 0.14204344, a: 0}
-    - _MainColor: {r: 0, g: 0.3158722, b: 1, a: 0}
-    - _SecondColor: {r: 1, g: 0.89767873, b: 0, a: 0}
+    - _FakeSSSColor: {r: 0.26415092, g: 0, b: 0.14716977, a: 0}
+    - _MainColor: {r: 0.5904905, g: 0.16313633, b: 0.735849, a: 0}
+    - _SecondColor: {r: 0.7735849, g: 0.22988607, b: 0.3343615, a: 0}

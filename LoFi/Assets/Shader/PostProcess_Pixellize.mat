@@ -61,7 +61,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BandHeight: 43
-    - _BandInt: 0.166
+    - _BandInt: 0.057
     - _BandPaningSpeed: 1
     - _BorderInt: 0.206
     - _BorderSpherifyStrenght: 0.61
@@ -75,7 +75,7 @@ Material:
     - _Float6: 0.67
     - _Float7: -66.2
     - _Float8: 0.027
-    - _PixelSize: 254
+    - _PixelSize: 500
     - _SpherifyStrenght: 1.8
     - __dirty: 0
     m_Colors: []
