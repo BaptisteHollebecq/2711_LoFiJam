@@ -5,9 +5,11 @@ using UnityEngine;
 public class UI_DragDropGraine : MonoBehaviour
 {
     public Graine graine;
+    public LayerMask Pot;
 
     private Vector2 startPos;
     private bool GotIt = false;
+
 
     private void OnMouseDown()
     {
@@ -35,14 +37,14 @@ public class UI_DragDropGraine : MonoBehaviour
         transform.localPosition = startPos;
         Ray ray = ManageCamera.activeCamera.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
-        if (Physics.Raycast(ray, out hit, 8))
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity, Pot))
         {
             FlowerPot pot = hit.transform.GetComponent<FlowerPot>();
             if (GotIt && !pot.Taken)
             {
                 graine.PlantSeed();
                 GotIt = false;
-                pot.SeedPlanted();
+                pot.SeedPlanted(graine.flower);
             }
         }
     }

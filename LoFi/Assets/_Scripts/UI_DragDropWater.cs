@@ -9,6 +9,8 @@ public class UI_DragDropWater : MonoBehaviour
     public float WateringTime = 2;
     public float WaterAmonth = 3;
 
+    public LayerMask Pot;
+
     public Sprite baseSprite;
     public Sprite OverSprite;
 
@@ -33,7 +35,7 @@ public class UI_DragDropWater : MonoBehaviour
         transform.localPosition = new Vector2(Input.mousePosition.x - Screen.width / 2, Input.mousePosition.y - Screen.height / 2);
         Ray ray = ManageCamera.activeCamera.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
-        if (Physics.Raycast(ray, out hit, 8))
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity, Pot))
         {
             pot = hit.transform.GetComponent<FlowerPot>();
             if (pot.Taken && !isWatering)
