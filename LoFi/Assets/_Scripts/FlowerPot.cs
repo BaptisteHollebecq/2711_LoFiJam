@@ -40,18 +40,30 @@ public class FlowerPot : MonoBehaviour
                 }
             case GraineType.Vert:
                 {
+                    var inst = Instantiate(GreenFlower, SpawnPlant);
+                    flower = inst.GetComponent<Flower>();
+                    flower.pot = this;
                     break;
                 }
             case GraineType.Jaune:
                 {
+                    var inst = Instantiate(YellowFlower, SpawnPlant);
+                    flower = inst.GetComponent<Flower>();
+                    flower.pot = this;
                     break;
                 }
             case GraineType.Rose:
                 {
+                    var inst = Instantiate(PinkFlower, SpawnPlant);
+                    flower = inst.GetComponent<Flower>();
+                    flower.pot = this;
                     break;
                 }
             case GraineType.Rouge:
                 {
+                    var inst = Instantiate(RedFlower, SpawnPlant);
+                    flower = inst.GetComponent<Flower>();
+                    flower.pot = this;
                     break;
                 }
         }
