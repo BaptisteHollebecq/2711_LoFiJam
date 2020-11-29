@@ -62,8 +62,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8290782892783832528, guid: 7ad8a3eb001d740409050dc242d32ccf, type: 3}
-  - {fileID: 7626191068330388430, guid: 7ad8a3eb001d740409050dc242d32ccf, type: 3}
+  - {fileID: 2100000, guid: 4ffaf278139630d4884b227d35a77eef, type: 2}
+  - {fileID: 2100000, guid: 94ee6930414d0a64f8975b11d74d55ff, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2fd62edcc81b06459db7abd8899e899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BaseMat: {fileID: 8290782892783832528, guid: 7ad8a3eb001d740409050dc242d32ccf, type: 3}
+  BaseMat: {fileID: 2100000, guid: 4ffaf278139630d4884b227d35a77eef, type: 2}
   OverredMat: {fileID: 2100000, guid: c9b56f334d7d81649892ffba4476c295, type: 2}
   TargetWhenClicked: {fileID: 0}
 --- !u!114 &3657229825494578512
@@ -128,12 +128,17 @@ MonoBehaviour:
   WaterAmonth: 0
   TimerDecrease: 1
   AmonthLost: 1
-  SpawnPlant: {fileID: 0}
-  blueFlower: {fileID: 0}
-  RedFlower: {fileID: 0}
-  GreenFlower: {fileID: 0}
-  YellowFlower: {fileID: 0}
-  PinkFlower: {fileID: 0}
+  SpawnPlant: {fileID: 3148670673516233523}
+  blueFlower: {fileID: 4841818735755656467, guid: 0db3c42e2d043694783f7f958230dec7,
+    type: 3}
+  RedFlower: {fileID: 4841818735755656467, guid: cde6ede6b9c0988409e4c798f6647c91,
+    type: 3}
+  GreenFlower: {fileID: 4841818735755656467, guid: 7ef7f1349ac849841be1b5b6740d63a7,
+    type: 3}
+  YellowFlower: {fileID: 4841818735755656467, guid: e74282a291d30dc42a291a6829baa62c,
+    type: 3}
+  PinkFlower: {fileID: 4841818735755656467, guid: 9a98905d76b8c9046a2da8265adace5e,
+    type: 3}
   actualState: 0
 --- !u!1 &9222414837407330343
 GameObject:

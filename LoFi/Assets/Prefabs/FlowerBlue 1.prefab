@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3729883101051882946}
   - component: {fileID: 2156943308114517774}
   m_Layer: 0
-  m_Name: FlowerBlue
+  m_Name: FlowerBlue 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -173,6 +173,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f81f0a9183306ac43a10a6414cf69546,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9b268f49daae42b4190a250fca25ae71, type: 2}
     - target: {fileID: 919132149155446097, guid: f81f0a9183306ac43a10a6414cf69546,
         type: 3}
       propertyPath: m_Name
@@ -254,6 +259,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8f7c820d8f07f6d4397696e7bf4c05b0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 44abc45b832f3d247b95325e93342aef, type: 2}
     - target: {fileID: 919132149155446097, guid: 8f7c820d8f07f6d4397696e7bf4c05b0,
         type: 3}
       propertyPath: m_Name
