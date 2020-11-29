@@ -490,8 +490,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80f12d314633fe549b5232db85c6b9d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimerRange: {x: 10, y: 20}
-  CostRange: {x: 50, y: 100}
+  TimerRange: {x: 30, y: 60}
+  CostRange: {x: 50, y: 75}
   textTimer: {fileID: 2277247117006332043}
   textCost: {fileID: 2649632607157772330}
   one: 0

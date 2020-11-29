@@ -24,14 +24,14 @@ public class UI_UPDown : MonoBehaviour
         if (isDown)
         {
             transform.parent.DOComplete();
-            transform.parent.DOLocalMove(localPosPlusY(transform.parent.localPosition, 120), MoveTiming);
+            transform.parent.DOLocalMove(localPosPlusY(transform.parent.localPosition, 150), MoveTiming);
             img.sprite = DownArrow;
             isDown = false;
         }
         else
         {
             transform.parent.DOComplete();
-            transform.parent.DOLocalMove(localPosPlusY(transform.parent.localPosition, -120), MoveTiming);
+            transform.parent.DOLocalMove(localPosPlusY(transform.parent.localPosition, -150), MoveTiming);
             img.sprite = UpArrow;
             isDown = true;
         }

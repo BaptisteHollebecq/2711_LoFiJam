@@ -328,6 +328,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4841818735755656467, guid: 1a0c378ea323ea446b5794dc77ac6efe,
         type: 3}
+    - target: {fileID: 3657229825494578512, guid: af81e3f0b99d37046b8c8a8eda0d32e4,
+        type: 3}
+      propertyPath: WaterAmonth
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3657229825494578512, guid: af81e3f0b99d37046b8c8a8eda0d32e4,
+        type: 3}
+      propertyPath: TimerDecrease
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5898416577920804706, guid: af81e3f0b99d37046b8c8a8eda0d32e4,
         type: 3}
       propertyPath: m_Name
@@ -438,6 +448,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4841818735755656467, guid: 1a0c378ea323ea446b5794dc77ac6efe,
         type: 3}
+    - target: {fileID: 3657229825494578512, guid: af81e3f0b99d37046b8c8a8eda0d32e4,
+        type: 3}
+      propertyPath: WaterAmonth
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3657229825494578512, guid: af81e3f0b99d37046b8c8a8eda0d32e4,
+        type: 3}
+      propertyPath: TimerDecrease
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5898416577920804706, guid: af81e3f0b99d37046b8c8a8eda0d32e4,
         type: 3}
       propertyPath: m_Name
@@ -907,6 +927,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9083693804102454327, guid: 5e85abdbd09386f40930d632779bf21d,
+        type: 3}
+      propertyPath: StartingMoney
+      value: 175
+      objectReference: {fileID: 0}
+    - target: {fileID: 9083693804102454327, guid: 5e85abdbd09386f40930d632779bf21d,
+        type: 3}
+      propertyPath: canvasLoser
+      value: 
+      objectReference: {fileID: 681650683}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e85abdbd09386f40930d632779bf21d, type: 3}
 --- !u!43 &513207338
@@ -1990,6 +2020,12 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &681650683 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6064901870307263900, guid: 5e85abdbd09386f40930d632779bf21d,
+    type: 3}
+  m_PrefabInstance: {fileID: 426385777}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2652,6 +2688,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4841818735755656467, guid: 1a0c378ea323ea446b5794dc77ac6efe,
         type: 3}
+    - target: {fileID: 3657229825494578512, guid: af81e3f0b99d37046b8c8a8eda0d32e4,
+        type: 3}
+      propertyPath: WaterAmonth
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3657229825494578512, guid: af81e3f0b99d37046b8c8a8eda0d32e4,
+        type: 3}
+      propertyPath: TimerDecrease
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5898416577920804706, guid: af81e3f0b99d37046b8c8a8eda0d32e4,
         type: 3}
       propertyPath: m_Name
@@ -2960,6 +3006,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 819500706}
+  - component: {fileID: 819500707}
   m_Layer: 0
   m_Name: Hud
   m_TagString: Untagged
@@ -2984,6 +3031,102 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &819500707
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819500705}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 3650371055f931645b9cd6821b28d5b0, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!224 &827756703 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5083647853919014921, guid: 5e85abdbd09386f40930d632779bf21d,
@@ -5422,32 +5565,32 @@ PrefabInstance:
     - target: {fileID: 6185483564488408905, guid: 56100d3a6ffef73409c781a1db3e2f2a,
         type: 3}
       propertyPath: FactureSpawnRange.x
-      value: 300
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6185483564488408905, guid: 56100d3a6ffef73409c781a1db3e2f2a,
         type: 3}
       propertyPath: FactureSpawnRange.y
-      value: 300
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 6185483564488408905, guid: 56100d3a6ffef73409c781a1db3e2f2a,
         type: 3}
       propertyPath: LettersSpawnRange.x
-      value: 300
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 6185483564488408905, guid: 56100d3a6ffef73409c781a1db3e2f2a,
         type: 3}
       propertyPath: LettersSpawnRange.y
-      value: 300
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 6185483564488408905, guid: 56100d3a6ffef73409c781a1db3e2f2a,
         type: 3}
       propertyPath: PubsSpawnRange.x
-      value: 300
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6185483564488408905, guid: 56100d3a6ffef73409c781a1db3e2f2a,
         type: 3}
       propertyPath: PubsSpawnRange.y
-      value: 300
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6185483564488408905, guid: 56100d3a6ffef73409c781a1db3e2f2a,
         type: 3}
@@ -5861,6 +6004,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4841818735755656467, guid: 1a0c378ea323ea446b5794dc77ac6efe,
         type: 3}
+    - target: {fileID: 3657229825494578512, guid: af81e3f0b99d37046b8c8a8eda0d32e4,
+        type: 3}
+      propertyPath: WaterAmonth
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3657229825494578512, guid: af81e3f0b99d37046b8c8a8eda0d32e4,
+        type: 3}
+      propertyPath: TimerDecrease
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5898416577920804706, guid: af81e3f0b99d37046b8c8a8eda0d32e4,
         type: 3}
       propertyPath: m_Name
@@ -7379,6 +7532,46 @@ PrefabInstance:
       propertyPath: TargetWhenClicked
       value: 
       objectReference: {fileID: 963194227}
+    - target: {fileID: 2892599339733886737, guid: 282e8890ec6fce74d8fa41b2e4bb6cbd,
+        type: 3}
+      propertyPath: remaining
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2892599339733886737, guid: 282e8890ec6fce74d8fa41b2e4bb6cbd,
+        type: 3}
+      propertyPath: Cost
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 3150605266793561498, guid: 282e8890ec6fce74d8fa41b2e4bb6cbd,
+        type: 3}
+      propertyPath: remaining
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3150605266793561498, guid: 282e8890ec6fce74d8fa41b2e4bb6cbd,
+        type: 3}
+      propertyPath: Cost
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 3157317292956608580, guid: 282e8890ec6fce74d8fa41b2e4bb6cbd,
+        type: 3}
+      propertyPath: remaining
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3157317292956608580, guid: 282e8890ec6fce74d8fa41b2e4bb6cbd,
+        type: 3}
+      propertyPath: Cost
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447576553089379205, guid: 282e8890ec6fce74d8fa41b2e4bb6cbd,
+        type: 3}
+      propertyPath: remaining
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447576553089379205, guid: 282e8890ec6fce74d8fa41b2e4bb6cbd,
+        type: 3}
+      propertyPath: Cost
+      value: 150
+      objectReference: {fileID: 0}
     - target: {fileID: 3848110560533542554, guid: 282e8890ec6fce74d8fa41b2e4bb6cbd,
         type: 3}
       propertyPath: m_Camera
@@ -11361,6 +11554,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4841818735755656467, guid: 9a98905d76b8c9046a2da8265adace5e,
         type: 3}
+    - target: {fileID: 3657229825494578512, guid: af81e3f0b99d37046b8c8a8eda0d32e4,
+        type: 3}
+      propertyPath: WaterAmonth
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3657229825494578512, guid: af81e3f0b99d37046b8c8a8eda0d32e4,
+        type: 3}
+      propertyPath: TimerDecrease
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5898416577920804706, guid: af81e3f0b99d37046b8c8a8eda0d32e4,
         type: 3}
       propertyPath: m_Name
