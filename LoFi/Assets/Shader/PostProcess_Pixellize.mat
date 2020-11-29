@@ -65,7 +65,7 @@ Material:
     - _BandPaningSpeed: 1
     - _BorderInt: 0.2
     - _BorderSpherifyStrenght: -1.03
-    - _CenterGlowing: 0.2
+    - _CenterGlowing: 0.1
     - _Float0: 0.71
     - _Float1: 1.1
     - _Float2: 0.64

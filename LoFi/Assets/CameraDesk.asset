@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48a79b01ea5641d4aa6daa2e23605641, type: 3}
   m_Name: Bloom
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
@@ -85,13 +85,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
-  m_Name: Main Camera Profile
+  m_Name: CameraDesk
   m_EditorClassIdentifier: 
   settings:
   - {fileID: -1035351484045769983}
   - {fileID: -5047089364961631522}
-  - {fileID: 3801311191141597006}
---- !u!114 &3801311191141597006
+  - {fileID: 6567587625259096703}
+--- !u!114 &6567587625259096703
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}

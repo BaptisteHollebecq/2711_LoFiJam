@@ -20,7 +20,7 @@ public class Paperasse : MonoBehaviour
 
     private void Start()
     {
-        transform.localPosition = new Vector3(transform.localPosition.x + Random.Range(-650, 650), transform.localPosition.y + Random.Range(-450, 450), 0);
+        transform.localPosition = new Vector3(transform.localPosition.x + Random.Range(-500, 790), transform.localPosition.y + Random.Range(-170, 350), 0);
     }
 
     public void Back()
@@ -101,6 +101,7 @@ public class Paperasse : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, Mathf.Infinity, table))
             {
+                Debug.Log(hit.transform);
                 transform.localPosition = new Vector2(Input.mousePosition.x - Screen.width / 2, Input.mousePosition.y - Screen.height / 2);
             }
         }
