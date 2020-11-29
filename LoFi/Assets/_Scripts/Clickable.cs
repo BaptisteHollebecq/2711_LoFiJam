@@ -24,7 +24,10 @@ public class Clickable : MonoBehaviour
         if (ManageCamera.activeCamera == Camera.main)
             isOk = true;
         else
+        {
             isOk = false;
+            _meshRenderer.material = BaseMat;
+        }
     }
 
 
@@ -44,10 +47,8 @@ public class Clickable : MonoBehaviour
     {
         if (isOk)
         {
-            _meshRenderer.material = BaseMat;
             ChangeView?.Invoke(TargetWhenClicked);
-
+            _meshRenderer.material = BaseMat;
         }
-        
     }
 }
