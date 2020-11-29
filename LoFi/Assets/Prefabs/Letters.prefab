@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6356945163003303922}
   - component: {fileID: 3473500843623463094}
   - component: {fileID: 6273339665795396151}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,7 +115,7 @@ GameObject:
   - component: {fileID: 245280668699518153}
   - component: {fileID: 2330079875041805233}
   - component: {fileID: 8238819081393910834}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Letters
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -207,7 +207,7 @@ MonoBehaviour:
   papier: 1
   table:
     serializedVersion: 2
-    m_Bits: 1536
+    m_Bits: 5120
   corbeille:
     serializedVersion: 2
     m_Bits: 2048

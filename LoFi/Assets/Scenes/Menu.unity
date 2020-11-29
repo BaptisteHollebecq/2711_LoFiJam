@@ -211,6 +211,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4452779393519801690, guid: 7a083794a006e654fb60a96d1718d9ae,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4452779393519801690, guid: 7a083794a006e654fb60a96d1718d9ae,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 768557332}
+    - target: {fileID: 4452779393519801690, guid: 7a083794a006e654fb60a96d1718d9ae,
+        type: 3}
+      propertyPath: m_PlaneDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5533284702442401654, guid: 7a083794a006e654fb60a96d1718d9ae,
+        type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5533284702442401654, guid: 7a083794a006e654fb60a96d1718d9ae,
+        type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5533284702442401654, guid: 7a083794a006e654fb60a96d1718d9ae,
+        type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5790892400093890464, guid: 7a083794a006e654fb60a96d1718d9ae,
         type: 3}
       propertyPath: m_Name

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 19793298839964848}
   - component: {fileID: 4076887853720671109}
   m_Layer: 12
-  m_Name: Pubs
+  m_Name: Pubs 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62,11 +62,11 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
+  m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1ddbb09781a4cdf43921375364625d1e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9724216d90ff56b4e9ccf93cd9182d7b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

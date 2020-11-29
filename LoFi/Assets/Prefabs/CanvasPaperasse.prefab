@@ -134,7 +134,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -672, y: -288}
+  m_AnchoredPosition: {x: -512, y: -298}
   m_SizeDelta: {x: 210, y: 297}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2570078335332750717
@@ -209,8 +209,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 125, y: 125}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 197, y: 102}
+  m_SizeDelta: {x: 249, y: 77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2164523672229535297
 CanvasRenderer:
@@ -239,7 +239,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: de440c3ee266b4547851de39f88e1288, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 94a9b6d823f5cd548830ac0b3872b237, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -262,8 +262,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetWhenClicked: {fileID: 0}
-  BaseSprite: {fileID: 21300000, guid: de440c3ee266b4547851de39f88e1288, type: 3}
-  OveredSprite: {fileID: 21300000, guid: 7bdcc29d70293394686441762b47cb2f, type: 3}
+  BaseSprite: {fileID: 21300000, guid: 94a9b6d823f5cd548830ac0b3872b237, type: 3}
+  OveredSprite: {fileID: 21300000, guid: 089bd4aaee4a73a42be7cf8d651d113a, type: 3}
 --- !u!1001 &5541851950121591547
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -37,7 +37,7 @@ public class UI_DragDropGraine : MonoBehaviour
         transform.localPosition = startPos;
         Ray ray = ManageCamera.activeCamera.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
-        if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity, Pot))
         {
             FlowerPot pot = hit.transform.GetComponent<FlowerPot>();
             if (GotIt && !pot.Taken)
