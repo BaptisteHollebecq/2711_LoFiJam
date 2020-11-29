@@ -7596,7 +7596,7 @@ GameObject:
   - component: {fileID: 6337172846904708076}
   m_Layer: 0
   m_Name: Main Camera (1)
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9954,7 +9954,7 @@ GameObject:
   - component: {fileID: 8026945426201141796}
   m_Layer: 0
   m_Name: Main Camera (2)
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9967,7 +9967,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7268930135573262121}
   m_LocalRotation: {x: 0.70710707, y: -0.0000002844911, z: 0.0000002844913, w: 0.70710653}
-  m_LocalPosition: {x: 6.233, y: 2.1, z: 3.5}
+  m_LocalPosition: {x: 6.033, y: 2.1, z: 3.168}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 217028603923978253}
@@ -10000,7 +10000,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 0
-  orthographic size: 5
+  orthographic size: 0.75
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
