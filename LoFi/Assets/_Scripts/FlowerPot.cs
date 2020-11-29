@@ -13,7 +13,13 @@ public class FlowerPot : MonoBehaviour
     public float AmonthLost = 1;
 
     public Transform SpawnPlant;
+
     public GameObject blueFlower;
+    public GameObject RedFlower;
+    public GameObject GreenFlower;
+    public GameObject YellowFlower;
+    public GameObject PinkFlower;
+
     public State actualState = State.Dry;
 
     private bool alreadyDrying = false;

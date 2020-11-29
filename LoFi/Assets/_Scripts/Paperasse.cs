@@ -101,7 +101,7 @@ public class Paperasse : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, Mathf.Infinity, table))
             {
-                Debug.Log(hit.transform);
+                Debug.Log(Screen.width);
                 transform.localPosition = new Vector2(Input.mousePosition.x - Screen.width / 2, Input.mousePosition.y - Screen.height / 2);
             }
         }

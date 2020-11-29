@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2980052872082011019}
   - component: {fileID: 1529632015451587219}
   - component: {fileID: 4977844522591314170}
-  m_Layer: 12
+  m_Layer: 10
   m_Name: Text (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 4896748730860882860}
   - component: {fileID: 7724464311159777258}
   - component: {fileID: 1456609056604176569}
-  m_Layer: 12
+  m_Layer: 10
   m_Name: Text (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 5550866286028633751}
   - component: {fileID: 8659623207514596557}
   - component: {fileID: 8378541601420637101}
-  m_Layer: 12
+  m_Layer: 10
   m_Name: Image (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 2555449042313016669}
   - component: {fileID: 151908118353618408}
   - component: {fileID: 3496578293470301005}
-  m_Layer: 12
+  m_Layer: 10
   m_Name: Image (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -374,7 +374,7 @@ GameObject:
   - component: {fileID: 78420718065478801}
   - component: {fileID: 4376553103488195417}
   - component: {fileID: 6112973005931258325}
-  m_Layer: 12
+  m_Layer: 10
   m_Name: Facture3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -459,11 +459,11 @@ MonoBehaviour:
   papier: 0
   table:
     serializedVersion: 2
-    m_Bits: 3072
+    m_Bits: 2560
   corbeille:
     serializedVersion: 2
     m_Bits: 2048
-  distanceopening: 300
+  distanceopening: 100
   isOnScreen: 0
 --- !u!65 &4376553103488195417
 BoxCollider:
@@ -509,7 +509,7 @@ GameObject:
   - component: {fileID: 3973956568158627748}
   - component: {fileID: 5774536274652507988}
   - component: {fileID: 2649632607157772330}
-  m_Layer: 12
+  m_Layer: 10
   m_Name: Text (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -587,7 +587,7 @@ GameObject:
   - component: {fileID: 5081219515780384037}
   - component: {fileID: 2310801750711979253}
   - component: {fileID: 2277247117006332043}
-  m_Layer: 12
+  m_Layer: 10
   m_Name: Text (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -667,7 +667,7 @@ GameObject:
   - component: {fileID: 1163298145747741042}
   - component: {fileID: 2780086366997717412}
   - component: {fileID: 398517547658509205}
-  m_Layer: 12
+  m_Layer: 10
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}

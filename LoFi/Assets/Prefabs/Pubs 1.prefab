@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5239601678965837459}
   - component: {fileID: 19793298839964848}
   - component: {fileID: 4076887853720671109}
-  m_Layer: 12
+  m_Layer: 10
   m_Name: Pubs 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,11 +91,11 @@ MonoBehaviour:
   papier: 2
   table:
     serializedVersion: 2
-    m_Bits: 5120
+    m_Bits: 2560
   corbeille:
     serializedVersion: 2
     m_Bits: 2048
-  distanceopening: 110
+  distanceopening: 100
   isOnScreen: 0
 --- !u!65 &4076887853720671109
 BoxCollider:

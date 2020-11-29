@@ -7,7 +7,7 @@ public class Flower : MonoBehaviour
     public float TimetoGrow = 40;
 
     public GameObject baseFlower;
-    public Mesh GrownFloawer;
+    public GameObject GrownFloawer;
 
     public Material DeadMaterial;
 
@@ -24,6 +24,7 @@ public class Flower : MonoBehaviour
         transform.localScale = new Vector3(0, 0, 0);
         increase = 1 / TimetoGrow;
         routine = StartCoroutine(Grow());
+        GrownFloawer.SetActive(false);
     }
 
     IEnumerator Grow()
@@ -53,7 +54,7 @@ public class Flower : MonoBehaviour
         }
 
         {
-            baseFlower.GetComponent<MeshFilter>().mesh = GrownFloawer;
+            GrownFloawer.SetActive(true);
         } 
     }
 
