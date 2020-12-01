@@ -47,8 +47,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TimetoGrow: 30
   baseFlower: {fileID: 4885361039886178612}
-  GrownFloawer: {fileID: 0}
-  DeadMaterial: {fileID: 0}
+  GrownFloawer: {fileID: 7070035338022925236}
+  Dry: {fileID: 2100000, guid: 4380d660d74e3f44a9c74cdd4f55f4c2, type: 2}
+  Perfect: {fileID: 2100000, guid: 44abc45b832f3d247b95325e93342aef, type: 2}
+  PerfectFlower: {fileID: 2100000, guid: cff1bfd719ba5844588abbca2b01fb68, type: 2}
+  Drown: {fileID: 2100000, guid: 35ba9c09c7517ae419185c6f18981274, type: 2}
+  DeadMaterial: {fileID: 2100000, guid: f6d14db95cd6ed5438d28028dc6cd494, type: 2}
   pot: {fileID: 0}
 --- !u!136 &2156943308114517774
 CapsuleCollider:
@@ -265,6 +269,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e61a951596b9744f82f2f6cce696e26, type: 3}
+--- !u!1 &7070035338022925236 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0e61a951596b9744f82f2f6cce696e26,
+    type: 3}
+  m_PrefabInstance: {fileID: 7988442905794416357}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7590288319504771342 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0e61a951596b9744f82f2f6cce696e26,

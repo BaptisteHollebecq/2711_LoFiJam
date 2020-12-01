@@ -9,6 +9,10 @@ public class Flower : MonoBehaviour
     public GameObject baseFlower;
     public GameObject GrownFloawer;
 
+    public Material Dry;
+    public Material Perfect;
+    public Material PerfectFlower;
+    public Material Drown;
     public Material DeadMaterial;
 
     [HideInInspector]
@@ -25,6 +29,31 @@ public class Flower : MonoBehaviour
         increase = 1 / TimetoGrow;
         routine = StartCoroutine(Grow());
         GrownFloawer.SetActive(false);
+    }
+
+    private void Update()
+    {
+        switch (pot.actualState)
+        {
+            case State.Dry:
+                {
+                    baseFlower.transform.GetChild(0).GetComponent<MeshRenderer>().material = Dry;
+                    GrownFloawer.GetComponent<MeshRenderer>().material = Dry;
+                    break;
+                }
+            case State.Perfect:
+                {
+                    baseFlower.transform.GetChild(0).GetComponent<MeshRenderer>().material = Perfect;
+                    GrownFloawer.GetComponent<MeshRenderer>().material = PerfectFlower;
+                    break;
+                }
+            case State.Drown:
+                {
+                    baseFlower.transform.GetChild(0).GetComponent<MeshRenderer>().material = Drown;
+                    GrownFloawer.GetComponent<MeshRenderer>().material = Drown;
+                    break;
+                }
+        }
     }
 
     IEnumerator Grow()
@@ -60,7 +89,8 @@ public class Flower : MonoBehaviour
 
     public void Kill()
     {
-        baseFlower.GetComponent<MeshRenderer>().material = DeadMaterial;
+        baseFlower.transform.GetChild(0).GetComponent<MeshRenderer>().material = DeadMaterial;
+        GrownFloawer.GetComponent<MeshRenderer>().material = DeadMaterial;
         isDead = true;
         StopCoroutine(routine);
     }

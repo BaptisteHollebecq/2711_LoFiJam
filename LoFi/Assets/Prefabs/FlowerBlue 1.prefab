@@ -48,7 +48,11 @@ MonoBehaviour:
   TimetoGrow: 30
   baseFlower: {fileID: 4885361039886178612}
   GrownFloawer: {fileID: 784649355604790329}
-  DeadMaterial: {fileID: 0}
+  Dry: {fileID: 2100000, guid: 4380d660d74e3f44a9c74cdd4f55f4c2, type: 2}
+  Perfect: {fileID: 2100000, guid: 44abc45b832f3d247b95325e93342aef, type: 2}
+  PerfectFlower: {fileID: 2100000, guid: 9b268f49daae42b4190a250fca25ae71, type: 2}
+  Drown: {fileID: 2100000, guid: 35ba9c09c7517ae419185c6f18981274, type: 2}
+  DeadMaterial: {fileID: 2100000, guid: f6d14db95cd6ed5438d28028dc6cd494, type: 2}
   pot: {fileID: 0}
 --- !u!136 &2156943308114517774
 CapsuleCollider:

@@ -61,9 +61,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BandHeight: 5
-    - _BandInt: 0.01
+    - _BandInt: 0.03
     - _BandPaningSpeed: 1
-    - _BorderInt: 0.2
+    - _BorderInt: 0.12
     - _BorderSpherifyStrenght: -1.03
     - _CenterGlowing: 0.1
     - _Float0: 0.71

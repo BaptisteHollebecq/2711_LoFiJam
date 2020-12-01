@@ -17,6 +17,7 @@ public class Graine : MonoBehaviour
 
     private void Start()
     {
+        CostText.text = Cost.ToString();
         ActualiseText();
         if (remaining == 0)
             CostText.enabled = true;

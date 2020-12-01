@@ -10,6 +10,11 @@ public class UI_DragDropGraine : MonoBehaviour
     private Vector2 startPos;
     private bool GotIt = false;
 
+    private void Start()
+    {
+        startPos = transform.localPosition;
+
+    }
 
     private void OnMouseDown()
     {
