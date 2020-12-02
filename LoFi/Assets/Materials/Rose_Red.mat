@@ -101,7 +101,7 @@ Material:
     - _NormalScale: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _SecondColorMask: 0.638
+    - _SecondColorMask: 0.532
     - _SmoothnessInt: 0.815
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -113,6 +113,6 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 0.92549014, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0.6411609, g: 0.6411609, b: 0.6411609, a: 1}
-    - _FakeSSSColor: {r: 0.8962264, g: 0.40161088, b: 0.7816896, a: 0}
-    - _MainColor: {r: 0, g: 0.3158722, b: 1, a: 0}
+    - _FakeSSSColor: {r: 0.4392157, g: 0, b: 16, a: 0}
+    - _MainColor: {r: 0.15496778, g: 1, b: 0, a: 0}
     - _SecondColor: {r: 1, g: 0.8980392, b: 0, a: 0}

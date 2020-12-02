@@ -98,10 +98,10 @@ Material:
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
-    - _NormalScale: 1
+    - _NormalScale: 1.06
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _SecondColorMask: 0.553
+    - _SecondColorMask: 0.525
     - _SmoothnessInt: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -113,6 +113,6 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 0.92549014, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0.6411609, g: 0.6411609, b: 0.6411609, a: 1}
-    - _FakeSSSColor: {r: 0.8396226, g: 0.2891153, b: 0.48138726, a: 0}
+    - _FakeSSSColor: {r: 1, g: 0.46427232, b: 0, a: 0}
     - _MainColor: {r: 1, g: 0.7538661, b: 0, a: 0}
     - _SecondColor: {r: 1, g: 0.039154567, b: 0, a: 0}
