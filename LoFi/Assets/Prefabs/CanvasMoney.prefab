@@ -486,6 +486,7 @@ GameObject:
   - component: {fileID: 6422791267694826130}
   - component: {fileID: 7721045035843938768}
   - component: {fileID: 3141722735512164621}
+  - component: {fileID: 6925956343260420017}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -536,7 +537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8773585, g: 0.41798684, b: 0.7874298, a: 0.5254902}
+  m_Color: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 0}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -552,6 +553,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!65 &6925956343260420017
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6064901870307263900}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1805, y: 978, z: 1}
+  m_Center: {x: 0, y: 0, z: 1}
 --- !u!1 &6933954765328498386
 GameObject:
   m_ObjectHideFlags: 0

@@ -24,7 +24,7 @@ public class MoneyManager : MonoBehaviour
     public void Update()
     {
         MoneyText.text = Money.ToString();
-        if(Money <= 0 && !lost)
+        if(Money < 0 && !lost)
         {
             lost = true;
             canvasLoser.SetActive(true);

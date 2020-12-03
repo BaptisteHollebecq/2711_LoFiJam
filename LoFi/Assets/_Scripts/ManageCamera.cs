@@ -6,6 +6,7 @@ public class ManageCamera : MonoBehaviour
 {
     public List<Camera> cameras;
     public Camera StartingCamera;
+    public Canvas moneyCanvas;
 
     [HideInInspector]
     public static Camera activeCamera;
@@ -38,6 +39,8 @@ public class ManageCamera : MonoBehaviour
             {
                 c.enabled = true;
                 activeCamera = c;
+                moneyCanvas.worldCamera = c;
+                moneyCanvas.planeDistance = 1;
             }
         }
     }
@@ -54,6 +57,8 @@ public class ManageCamera : MonoBehaviour
             {
                 c.enabled = true;
                 activeCamera = c;
+                moneyCanvas.worldCamera = c;
+                moneyCanvas.planeDistance = 1;
             }
         }
     }

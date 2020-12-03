@@ -550,6 +550,12 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 249, y: 92.08081, z: 1}
   m_Center: {x: 4.786969e-13, y: 7.5403986, z: -0.00000012489642}
+--- !u!223 &348430197 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 3775877769390437172, guid: 5e85abdbd09386f40930d632779bf21d,
+    type: 3}
+  m_PrefabInstance: {fileID: 426385777}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &366309142
 Mesh:
   m_ObjectHideFlags: 0
@@ -731,6 +737,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasMoney
       objectReference: {fileID: 0}
+    - target: {fileID: 3775877769390437172, guid: 5e85abdbd09386f40930d632779bf21d,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3775877769390437172, guid: 5e85abdbd09386f40930d632779bf21d,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 963194227}
     - target: {fileID: 5083647853919014921, guid: 5e85abdbd09386f40930d632779bf21d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8577,6 +8593,11 @@ PrefabInstance:
       propertyPath: cameras.Array.data[1]
       value: 
       objectReference: {fileID: 376887122}
+    - target: {fileID: 3562407470402745627, guid: b06f5e2e456cbc24da2ffa64fac2e8ff,
+        type: 3}
+      propertyPath: moneyCanvas
+      value: 
+      objectReference: {fileID: 348430197}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b06f5e2e456cbc24da2ffa64fac2e8ff, type: 3}
 --- !u!4 &1525652191 stripped
