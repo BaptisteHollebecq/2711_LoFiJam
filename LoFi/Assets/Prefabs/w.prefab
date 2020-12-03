@@ -125,8 +125,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Taken: 0
-  WaterAmonth: 0
-  TimerDecrease: 1
+  WaterAmonth: 20
+  TimerDecrease: 3
   AmonthLost: 1
   SpawnPlant: {fileID: 3148670673516233523}
   blueFlower: {fileID: 4841818735755656467, guid: 0db3c42e2d043694783f7f958230dec7,
