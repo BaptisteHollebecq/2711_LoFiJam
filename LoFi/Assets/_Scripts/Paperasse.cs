@@ -21,6 +21,7 @@ public class Paperasse : MonoBehaviour
     private void Start()
     {
         transform.localPosition = new Vector3(transform.localPosition.x + Random.Range(-500, 790), transform.localPosition.y + Random.Range(-170, 350), 0);
+        transform.SetSiblingIndex(0);
     }
 
     public void Back()
